@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: aquamarine;
+    margin: auto;
+    height: 800px;
+    width: 900px;
+}
+div#formulario{
+    display: inline-block;
+    width: 452px;
+    height: 702px;
+}
+div#formulario>h1{
+    display: inline-block;
+    width: 452px;
+    height: 702px;
+}
+
+
+div#img{
+    display: inline-block;
+    
+}
