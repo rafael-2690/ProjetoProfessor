@@ -3,24 +3,25 @@
     padding: 0px;
 }
 main{
-    background-color: aquamarine;
+    background-color: beige;
     margin: auto;
-    height: 800px;
-    width: 900px;
+    height: 931px;
+    width: 1350px;
 }
-div#formulario{
-    display: inline-block;
-    width: 452px;
+div#form{
+    width: 453px;
     height: 702px;
-}
-div#formulario>h1{
     display: inline-block;
-    width: 452px;
-    height: 702px;
 }
-
-
+h1{
+    width: 250px;
+    text-align: center;
+}
 div#img{
-    display: inline-block;
-    
+    background-color: aqua;
+    float: right;
+}
+img{
+    width: 716px;
+    height: 716px;
 }
