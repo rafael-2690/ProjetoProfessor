@@ -14,12 +14,12 @@ main{
 }
 div#form{
     padding-top: 30px;
-    width: 452px;
-    height: 702px;
+    width: 477px;
+    height: 877px;
     display: inline-block;
 }
 div#form>h1{
-    width: 250px;
+    width: 450px;
     text-align: center;
     margin: auto;
     font-size: 32px;
@@ -33,7 +33,7 @@ div#form>p{
     text-align: center;
     margin-bottom: 50px;
 }
-input#email{
+input{
     font-size: 20px;
     margin-bottom: 40px;
     margin-top: 7px;
@@ -42,34 +42,26 @@ input#email{
     border-radius: 9px;
     border: 1px solid gray;
 }
-input#email:hover{
+input:hover{
     margin-bottom: 40px;
     margin-top: 7px;
     width: 452px;
     height: 48px;
     border-radius: 9px;
     border: 2px solid var(--corRoxa)
+}
+input#name{
+    width: 200px;
+    float: left;
+}
+input#sobrenome{
+    width: 200px;
 }
 input#password{
-    font-size: 20px;
     margin-bottom: 7px;
-    margin-top: 7px;
-    width: 452px;
-    height: 48px;
-    border-radius: 9px;
-    border: 1px solid gray;
 }
-input#password:hover{
-    margin-bottom: 7px;
-    margin-top: 7px;
-    width: 452px;
-    height: 48px;
-    border-radius: 9px;
-    border: 2px solid var(--corRoxa)
-}
-a{
-    text-decoration: none;
-    color: rgba(128, 128, 128, 0.582);
+#cinza{
+    color: rgba(128, 128, 128, 0.884);
 }
 button{
     background-color: var(--corRoxa);
@@ -134,4 +126,8 @@ flex-grow: 1;
 }
 div#img{
     float: right;
+}
+img{
+    width: 632px;
+    height: 638px;
 }
