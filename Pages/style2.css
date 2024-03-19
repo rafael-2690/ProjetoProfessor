@@ -50,17 +50,10 @@ input:hover{
     border-radius: 9px;
     border: 2px solid var(--corRoxa)
 }
-input#name{
-    width: 200px;
-    float: left;
-}
-input#sobrenome{
-    width: 200px;
-}
 input#password{
     margin-bottom: 7px;
 }
-#cinza{
+.cinza{
     color: rgba(128, 128, 128, 0.884);
 }
 button{
